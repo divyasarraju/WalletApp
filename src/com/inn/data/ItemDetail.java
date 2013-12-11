@@ -5,9 +5,8 @@ import java.io.Serializable;
 
 public class ItemDetail implements Serializable {
 	
-	/**
-	 * 
-	 */
+	
+	
 	private static final long serialVersionUID = 1L;
 	private String name, qty, price, total  ;
 
