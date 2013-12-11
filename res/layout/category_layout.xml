@@ -7,18 +7,17 @@
 
     <TextView
         android:id="@+id/groupName"
-        android:text="category"
         android:layout_width="0dip"
-        android:layout_weight="1"
         android:layout_height="wrap_content"
-        android:paddingLeft="15dip" />
+        android:layout_weight="1"
+        android:paddingLeft="15dip"
+        android:text="@string/category" />
 
     <TextView
         android:id="@+id/groupPrice"
-        android:text="categoryprice"
         android:layout_width="0dip"
-        android:layout_weight="1"
         android:layout_height="wrap_content"
-        android:layout_below="@id/groupName"/>
+        android:layout_weight="1"
+        android:text="@string/categoryprice" />
 
 </LinearLayout>

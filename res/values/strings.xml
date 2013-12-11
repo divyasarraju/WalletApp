@@ -17,6 +17,8 @@
     <string name="profile_key">com.inn.walletapp.profile</string>
         <string name="profile_key_username">com.inn.walletapp.profile.username</string>
         <string name="profile_key_pin">com.inn.walletapp.profile.pin</string>
+        <string name="category">category</string>
+        <string name="categoryprice">categoryprice</string>
     
 
 </resources>
