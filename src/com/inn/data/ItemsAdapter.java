@@ -4,20 +4,13 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Color;
-import android.util.Base64;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.inn.services.Utils;
 import com.inn.walletapp.R;
-import com.inn.walletapp.R.id;
-import com.inn.walletapp.R.layout;
 
 public class ItemsAdapter extends BaseAdapter {
 	private final Context mcontext;
