@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".SendMoneyActivity" >
+   <include 
+         layout="@layout/title_bar_layout"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Send Money"
+            android:textColor="@color/btn_blue"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_amt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Amount"
+            android:inputType="numberDecimal"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/et_memo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Memo"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp" >
+
+            <ListView
+                android:id="@+id/contact_list"
+                android:layout_width="fill_parent"
+                android:layout_height="330dp"
+                android:cacheColorHint="#00000000"
+                android:choiceMode="singleChoice"
+                android:divider="@color/gray_bk"
+                android:dividerHeight="1dp"
+                android:scrollingCache="false" >
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/blue_rounded_button"
+                android:onClick="onPay"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="Pay"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/blue_rounded_button"
+                android:onClick="onCancel"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

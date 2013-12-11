@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="qa_url_login">https://www.qajotfromchase.com/innovations/relay/InnovationCenter/account/find/</string>
+    <string name="qa_url_p2p">https://www.qajotfromchase.com/innovations/relay/InnovationCenter/order/new/p2p_send/</string>
+    <string name="qa_url_confirm_order">https://www.qajotfromchase.com/innovations/relay/InnovationCenter/order/confirm/</string>
+    <string name="qa_url_review_order">https://www.qajotfromchase.com/innovations/relay/InnovationCenter/order/find/</string>
+    <string name="qa_url_cancel_order">https://www.qajotfromchase.com/innovations/relay/InnovationCenter/order/cancel/</string>
+    <string name="qa_url_confirm_order">https://www.qajotfromchase.com/innovations/relay/InnovationCenter/order/confirm/</string>
+
+</resources>

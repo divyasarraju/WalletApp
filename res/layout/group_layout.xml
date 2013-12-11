@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/groupName"
+            style="?android:attr/preferenceStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="15dp"
+            android:text="one"
+            android:textColor="@color/btn_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/groupDescr"
+            style="?android:attr/preferenceStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="15dp"
+            android:text="two"
+            android:textColor="@color/btn_blue"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/type"
+            style="?android:attr/preferenceStyle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="15dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/type_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two"
+            android:textStyle="italic"
+            android:paddingTop="5dp"
+            android:textColor="@color/btn_blue"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
