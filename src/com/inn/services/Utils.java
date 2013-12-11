@@ -1,18 +1,17 @@
 package com.inn.services;
 
-import com.inn.walletapp.R;
-
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.graphics.AvoidXfermode.Mode;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 import android.graphics.RectF;
-import android.graphics.PorterDuff;
+
+import com.inn.walletapp.R;
 
 public class Utils {
 	
@@ -63,7 +62,6 @@ public class Utils {
 		
 		double value = Double.parseDouble(myVal);
 		return String.format("%.2f", value);
-
 	}
 	
 	public static void writeToPreferences(Context c, String user, String pin){

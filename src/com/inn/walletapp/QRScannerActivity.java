@@ -41,7 +41,8 @@ public class QRScannerActivity extends Activity implements JSONResponseImpl {
 	private static final int ZBAR_SCANNER_REQUEST = 0;
 	private static final int ZBAR_QR_SCANNER_REQUEST = 1;
 	private final String DTAG = this.getClass().getCanonicalName();
-	private String token, receiving_amt, from_email, scan_result = null;
+//	private String token, receiving_amt, from_email;
+	private String scan_result = null;
 	AsyncTaskManager asyncReq;
 	OrderTaskManager orderTask;
 	private ListView item_list;

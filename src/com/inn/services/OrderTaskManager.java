@@ -20,6 +20,7 @@ import android.util.Log;
 public class OrderTaskManager extends AsyncTask<String, String, String> {
 	
 	private JSONResponseImpl jsonResponseImpl;
+	//will use later 
 	private String url;
 	private String dialog_message;
 	private ProgressDialog dialog;
